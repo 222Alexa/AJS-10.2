@@ -109,3 +109,9 @@ GameSavingLoader.load().then((saving) => {
 ```
 
 ---
+
+### Async/await
+
+[![Build status](https://ci.appveyor.com/api/projects/status/71vbv1yka6hvhsek/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ajs-10-2-q1o9b/branch/main)
+
+---
