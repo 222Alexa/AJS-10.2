@@ -2,7 +2,7 @@ import GameSavingLoader from "./GameSavingLoader";
 
 (async () => {
   try {
-    const response = GameSavingLoader.load();
+    const response = await GameSavingLoader.load();
 
     console.log(response);
   } catch (error) {
