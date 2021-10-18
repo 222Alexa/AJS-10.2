@@ -5,8 +5,6 @@ export default class GameSavingLoader {
   static async load() {
     const data = await read();
     const result = await json(data);
-    return result;//возвращает норм json
+    return JSON.parse(result);
   }
 }
-
-
