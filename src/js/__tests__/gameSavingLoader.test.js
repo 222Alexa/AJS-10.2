@@ -26,7 +26,7 @@ test("load() возвращает корректные данные", async () =
   expect(expected).toEqual(response);
 });
 
-test("Метод load должен ловить ошибку", async () => {
+test("load()  ловит ошибку", async () => {
   try {
     await GameSavingLoader.load();
   } catch (err) {
